@@ -11,3 +11,13 @@ cmake .
 make
 
 The cmake command only needs to be entered once, should the source code be altered.
+
+To run the generated executable:
+
+./averageColor images/[FILE NAME]
+
+For instance, to run the program with a given example image in the image repository:
+
+./averageColor images/example.jpg
+
+Only images with the .jpg and .png extensions have been tested.
