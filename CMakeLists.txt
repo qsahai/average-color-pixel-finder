@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( averageColor )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( averageColor averageColor.cpp )
+target_link_libraries( averageColor ${OpenCV_LIBS} )
